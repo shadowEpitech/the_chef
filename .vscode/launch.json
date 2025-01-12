@@ -1,0 +1,34 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "the_chef",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "the_chef (profile mode)",
+            "request": "launch",
+            "type": "dart", 
+            "flutterMode": "profile"
+        },
+        {
+            "name": "the_chef (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ],
+    "dart.flutterCustomEmulators": [
+        {
+            "id": "emulator-5554",
+            "name": "Pixel 9 Emulator",
+            "executable": "C:\\Users\\Nicolas\\AppData\\Local\\Android\\Sdk\\emulator\\emulator.exe",
+            "args": ["-avd", "Pixel_9"]
+        }
+    ],
+    "dart.flutterShowEmulators": "always"
+}
